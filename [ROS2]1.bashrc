@@ -1,6 +1,6 @@
-![01_installation](./image.png)
-<img src="./image.png", height="100x", width="100px">
+![jazzy설치](./1_jazzy_install.png)
+<img src="./image.png" height="100px", width="100px">
 <p align="center">
- <img src = "./image.png">
+ <img src = "./1_jazzy_install.png">
 </p>
 
