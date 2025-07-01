@@ -35,7 +35,9 @@ ROS에서 usb카메라를 다루는 패키지가 있어요. usb cam 패키지.
 <br>
   <img src="./07_ros_distro_pkg_name.png" width="900"><br>
 ROS에서 이렇게 표기가 되어있으면, 꺾쇠 괄호부터 꺾쇠 괄호 닫히는 괄호 사이에 나만의 패키지를 넣으면 됩니다. 
+
 < distro > 자리에 < ~~~ > 샤랄랄라 를 넣으면 되는거에요. 
+
   <img src="./08_ex_ros_distro_pkg_.png" width="900"><br>
 <br> 
 ROS humble 사용자는 ros-humble-pkg 
