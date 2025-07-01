@@ -4,16 +4,16 @@
 이번시간에 배운 내용 하나씩 적어볼게요. 
 <br><br>
 <p>
-  <img src="./1_jazzy_install.png" width="900"><br>
+  <img src="./01_jazzy_install.png" width="900"><br>
 <br><br>
   이렇게 검색창에 'jazzy install' 혹은 'jazzy' 라고 치면 installation document 나와요.
   ROS는 버전마다 installation 페이지를 항상 제공을 한대요! 
   
-  <img src="./2_installation.png" width="900"><br>
+  <img src="./02_installation.png" width="900"><br>
 <br><br>
   여기에 넘어가면 우분투 바이너리로 설치하는 과정이 나오는데요, 별 차이가 없는 것 같아요.
 <br><br>
-  <img src="./3_installation2.png" width="900"><br>
+  <img src="./03_installation2.png" width="900"><br>
   터미널에 < ctrl + c > 하시던지, 오른쪽 위의 네모버튼을 누르시던지 해서 터미널에 붙여넣기 하시면서 실행 해 가시면 된답니다.
 <br><br>
   * 혹시 잘 모르시는 분들을 위해 .. 
@@ -26,7 +26,7 @@
  Install ROS2 윗부분까지 < ctrl + c > + < ctrl + v > 하시면 됩니다. 
 
 <br>
-  <img src="./4_ros2_run_terminal.png" width="900"><br>
+  <img src="./04_ros2_run_terminal.png" width="900"><br>
 <br> 
 이제 jazzy 버전 설치가 되었는지 확인! 아직 소스 아무것도 안 했어요. 그러니까 설치 직후에요.
 <br><br>   source /opt/ros 경로에 이제 humble이 없어요. jazzy만 있어요. 
@@ -41,18 +41,18 @@ ros2 run demo_nodes_cpp talker 이렇게 하면
 <br><br>
 
 
-  <img src="./5_ment01_.png" width="900"><br>
+  <img src="./05_ment01_.png" width="900"><br>
 이제 이 상태에서 bashrc 이야기를 좀 할게요. 정말 길게 이야기했죠. 이해가 필요하거든요. 익숙해져야합니다.
-  <img src="./6_ment02_.png" width="900"><br>
+  <img src="./06_ment02_.png" width="900"><br>
 그리고 예전에 우리 alias 이야기도 많이 했죠.  
-  <img src="./7_ment03_.png" width="900"><br>
+  <img src="./07_ment03_.png" width="900"><br>
   이제 그 이야기 좀 더 이어서 가 볼게요. sh 파일이 있습니다. 
   이게 어떤 파일인지 알려줄게요. 
-  <img src="./8_ment04_.png" width="900"><br>
+  <img src="./08_ment04_.png" width="900"><br>
   <br> bashrc 직접 건드리는게 별로 좋지 않대요! 어딜 고쳤는지 모를 수 있어요. 지우거나 딴 데를 건드렸거나. <br>
   그래서 옆 사람에게 파일을 빌려오기도 한대요. 성격상 그걸 못 하시면.. 그러면 예쁘게 포맷.. ! 그래서 bashrc 를 건드리는건 썩 좋은 일은 아닌 것 같아요. 급할 때는 하더라도 파일을 하나 만들어 두는게 좋다고 해요.
   
-  <img src="./9_sh_file_below.png" width="900"><br>
+  <img src="./09_sh_file_below.png" width="900"><br>
 <br> 위의 이미지 내용이 bashrc에요. bashrc에다가 alias_settings.sh 라는 파일을 만들어두고, 그걸 홈에다 둔 다음에, source 하도록 만들어 두는거에요. 
   여기까지가 bashrc의 내용이에요. 원래 bashrc의 기본 내용이에요. 아래에 한 줄만 추가 한 거에요. 그리고 이 파일에서 내가 하고싶은 이야기를 하는거죠.
 
