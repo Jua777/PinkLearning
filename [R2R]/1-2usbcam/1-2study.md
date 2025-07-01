@@ -3,12 +3,12 @@
 
 <br><br>
 <p>
-  <img src="./1_domain_localhost.png" width="900"><br>
+  <img src="./01_domain_localhost.png" width="900"><br>
 DOMAIN_ID도 , LOCAL_HOST_ONLY 도 터미널 마다 확인을 해 봐야해요. 
 확인을 할 게 너무 많아요!
 <br><br>
 <br><br>
-  <img src="./2_vscode_ssh.png" width="900"><br>
+  <img src="./02_vscode_ssh.png" width="900"><br>
 이럴 때 해 주는게 있어요. <br>
 bashrc에 작업을 더 넣어주는거죠. 지금 이 화면은 vs code 에요. 
 강사님은 vs코드를 ssh 로 접근 한 거에요. 
@@ -20,24 +20,24 @@ ubuntu pc에 직접 모니터, 마우스, 키보드를 연결해서 쓰시는 �
 
 ssh이건 아니건! bashrc를 열어요.  
 <br>
-  <img src="./3_bashrc_not.png" width="900"><br>
+  <img src="./03_bashrc_not.png" width="900"><br>
 그런데, 지난번 영상에서 bashrc를 직접 작업하는게 아니라
 <br>
-  <img src="./4_alias_in.png" width="900"><br>
+  <img src="./04_alias_in.png" width="900"><br>
 <br> 
 alias setting sh 파일을 열기로 했잖아요. 
 여기에 이렇게 코드를 넣어둔 거에요. 
 
-  <img src="./5_ros_domain_id.png" width="900"><br>
+  <img src="./05_ros_domain_id.png" width="900"><br>
 ROS_DOMAIN_ID가 없다면 
 <br>
-  <img src="./6_ifno_0.png" width="900"><br>
+  <img src="./06_ifno_0.png" width="900"><br>
 0이다.
-  <img src="./7_if_display.png" width="900"><br>
+  <img src="./07_if_display.png" width="900"><br>
 그리고 ROS_DOMAIN_ID가 있다면 , 표기해라
-  <img src="./8_function.png" width="900"><br>
+  <img src="./08_function.png" width="900"><br>
 함수로 만들었어요. get_status 라는 함수!
-  <img src="./9_ifno_roslocalhost.png" width="900"><br>
+  <img src="./09_ifno_roslocalhost.png" width="900"><br>
 <br> 그리고 ROS_LOCAL_HOST_ONLY가 없으면, 
 
   <img src="./10_then_0.png" width="900"><br>
