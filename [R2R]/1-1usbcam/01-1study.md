@@ -3,19 +3,19 @@ R2R 실전편! Rush to ROS
 
 <br><br>
 <p>
-  <img src="./1_ROS2_OpenCV.png" width="900"><br>
+  <img src="./01_ROS2_OpenCV.png" width="900"><br>
 오늘은 영상 구독을 배웠어요.  
 <br><br>
 <br><br>
-  <img src="./2_ifconfig.png" width="900"><br>
+  <img src="./02_ifconfig.png" width="900"><br>
 일단 환경 셋팅! 강사님은 녹화용 mac pc 에서 ssh 로 ubuntu 에 접근을 하셨어요. 
 ifconfig -> 192.168.0.213 ip를 알아냈어요.  
 <br>
-  <img src="./3_mac_ubuntu_ip.png" width="900"><br>
+  <img src="./03_mac_ubuntu_ip.png" width="900"><br>
 암호 입력하고 접근한 ubuntu!
 <br><br>
  
-  <img src="./4_rosjazzy_usbcam.png" width="900"><br>
+  <img src="./04_rosjazzy_usbcam.png" width="900"><br>
 <br> 
 여기에서 몇가지 설치했는데요, sudo apt install ros-jazzy-usb-cam
 ( ubuntu 24.04에서 jazzy를 설치 한 경우, j + tab ! )
@@ -25,18 +25,18 @@ sbcam을 이미 설치했다면 아무것도 없다고  뜨구요,
 
 <br>
 
-  <img src="./5_ros_distro_.png" width="900"><br>
+  <img src="./05_ros_distro_.png" width="900"><br>
 보통 ROS 설치 가이드 페이지에 가면 이렇게 되어있는 경우가 많아요. 
 sudo apt install ros- 한 다음에 <  distro >  해두고 샤랄랄라 적는 경우가 많아요,
 <br>
 
-  <img src="./6_ROS2_USBcam.png" width="900"><br>
+  <img src="./06_ROS2_USBcam.png" width="900"><br>
 ROS에서 usb카메라를 다루는 패키지가 있어요. usb cam 패키지.
 <br>
-  <img src="./7_ros_distro_pkg_name.png" width="900"><br>
+  <img src="./07_ros_distro_pkg_name.png" width="900"><br>
 ROS에서 이렇게 표기가 되어있으면, 꺾쇠 괄호부터 꺾쇠 괄호 닫히는 괄호 사이에 나만의 패키지를 넣으면 됩니다. 
 < distro > 자리에 < ~~~ > 샤랄랄라 를 넣으면 되는거에요. 
-  <img src="./8_ex_ros_distro_pkg_.png" width="900"><br>
+  <img src="./08_ex_ros_distro_pkg_.png" width="900"><br>
   <br> 
 ROS humble 사용자는 ros-humble-pkg 
 ROS jazzy 사용자는 ros-jazzy-pkg
@@ -45,7 +45,7 @@ ROS galactic 사용자는 ros-galactic-pkg
 
 그런데! 그 패키지 만든 친구들이  지원을 해 주지 않으면 설치 안되는거라합니당...
   
-  <img src="./9_install_done.png" width="900"><br>
+  <img src="./09_install_done.png" width="900"><br>
 <br> 이렇게 해서 ROS jazzy usb cam 설치를 sudo apt install 명령으로 했어요. 
 
 
